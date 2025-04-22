@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aribnb - Charming Apartment Rental</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-house-heart-fill text-danger"></i>
+                Aribnb Rentals
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#details">Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center text-white d-flex align-items-center justify-content-center">
+        <div class="container">
+            <h1 class="display-4">Your Perfect Getaway Apartment</h1>
+            <p class="lead">Comfort, style, and convenience await you.</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+
+        <section id="details" class="my-5 p-4 rounded shadow-sm bg-white">
+            <h2 class="mb-4 border-bottom pb-2"><i class="bi bi-info-circle-fill text-primary"></i> Apartment Overview</h2>
+            <div class="row">
+                <div class="col-md-7">
+                    <h3>Discover Your Home Away From Home</h3>
+                    <p>This bright and airy apartment offers a comfortable and stylish base for your visit. Located in a vibrant neighbourhood, you'll have easy access to local cafes, shops, and attractions. The space is thoughtfully designed with modern amenities to ensure a relaxing stay.</p>
+                    <p>Enjoy a morning coffee on the sunny balcony, prepare meals in the fully equipped kitchen, or unwind in the cozy living area after a day of exploring.</p>
+                </div>
+                <div class="col-md-5">
+                    <h4>Key Features:</h4>
+                    <ul class="list-unstyled features-list">
+                        <li><i class="bi bi-wifi text-success"></i> High-speed Wi-Fi</li>
+                        <li><i class="bi bi-tv text-success"></i> Flat-screen TV</li>
+                        <li><i class="bi bi-snow text-success"></i> Air Conditioning & Heating</li>
+                        <li><i class="bi bi-cup-straw text-success"></i> Fully Equipped Kitchenette</li>
+                        <li><i class="bi bi-brightness-high-fill text-success"></i> Private Balcony</li>
+                        <li><i class="bi bi-person-check-fill text-success"></i> Sleeps 2-3 Guests</li>
+                        <li><i class="bi bi-geo-alt-fill text-success"></i> Great Location</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="my-5">
+            <h2 class="mb-4 border-bottom pb-2"><i class="bi bi-images text-primary"></i> Photo Gallery</h2>
+            <div id="apartmentCarousel" class="carousel slide shadow rounded overflow-hidden" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#apartmentCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#apartmentCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#apartmentCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                     <button type="button" data-bs-target="#apartmentCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://placehold.co/1200x600/ E8DED1/555555?text=Living+Room" class="d-block w-100" alt="Living Room Area">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                            <h5>Cozy Living Space</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://placehold.co/1200x600/ D1E8E2/555555?text=Bedroom" class="d-block w-100" alt="Comfortable Bedroom">
+                         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                            <h5>Restful Bedroom</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://placehold.co/1200x600/ E2D1E8/555555?text=Kitchenette" class="d-block w-100" alt="Modern Kitchenette">
+                         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                            <h5>Convenient Kitchenette</h5>
+                        </div>
+                    </div>
+                     <div class="carousel-item">
+                        <img src="https://placehold.co/1200x600/E8E2D1/555555?text=Balcony+View" class="d-block w-100" alt="Balcony View">
+                         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                            <h5>Relaxing Balcony</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#apartmentCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#apartmentCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="contact" class="my-5 p-4 rounded shadow-sm bg-white">
+             <h2 class="mb-4 border-bottom pb-2"><i class="bi bi-person-lines-fill text-primary"></i> Contact for Availability</h2>
+             <p class="lead">Interested in renting this lovely apartment? Get in touch!</p>
+             <div class="contact-info fs-5">
+                 <p><i class="bi bi-person-circle me-2"></i><strong>Name:</strong> Alex Coach</p>
+                 <p><i class="bi bi-telephone-fill me-2"></i><strong>Phone:</strong> +30 691 234 5678 </p>
+                 <p class="text-muted small mt-3">Please call or message for inquiries and booking information. No price details will be provided online.</p>
+             </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-light text-center text-muted py-3">
+        <div class="container">
+            <p>&copy; 2025 Aribnb Rentals. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
