@@ -75,3 +75,13 @@ section {
 footer p {
     margin-bottom: 0;
 }
+
+/* Style for language switcher */
+#lang-switcher {
+    /* ensure consistent size */
+    padding: 0.3rem 0.6rem;
+    font-size: 0.9rem;
+}
+#lang-switcher i {
+    vertical-align: middle; /* Align icon better with text */
+}
