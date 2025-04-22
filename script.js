@@ -1,12 +1,4 @@
-// script.js
-
-// You can add JavaScript functionalities here if needed.
-// For this setup, Bootstrap's components (like the carousel and navbar)
-// are handled by the Bootstrap JS bundle included in the HTML.
-
-console.log("Aribnb Apartment Page Loaded");
-
-// Example: Add smooth scrolling for anchor links (optional)
+// Add smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         // Check if the link is just a toggle or part of a component like carousel controls
@@ -43,7 +35,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
-// Optional: Add active class highlighting to navbar based on scroll position
+// Add active class highlighting to navbar based on scroll position
 const sections = document.querySelectorAll('section[id]');
 const navLi = document.querySelectorAll('.navbar-nav .nav-item .nav-link');
 
